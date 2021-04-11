@@ -1,0 +1,28 @@
+.repo {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 12px auto;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .description {
+    flex: 1;
+    margin-left: 18px;
+    padding: 12px;
+  }
+
+  .repolink {
+    color: blue;
+  }
+
+  .reponame {
+    margin: 0 0 12px 0;
+    padding: 0;
+  }
+
+  .excerpt {
+    margin: 0;
+  }
+}

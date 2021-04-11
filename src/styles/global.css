@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Vault Alarm";
+  src: url("./../fonts/VaultAlarm-Regular.woff2") format("woff2"),
+       url("./../fonts/VaultAlarm-Regular.woff") format("woff"),
+       url("./../fonts/VaultAlarm-Regular.ttf") format("ttf"),
+       url("./../fonts/VaultAlarm-Regular.otf") format("otf");
+}
+
+html {
+  background-color: rgb(223, 213, 187);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vault Alarm', Impact, sans-serif;
+}
