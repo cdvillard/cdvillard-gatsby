@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Charles Villard",
+    title: "Charles Villard Was Here!",
   },
   plugins: [
     "gatsby-plugin-sass",

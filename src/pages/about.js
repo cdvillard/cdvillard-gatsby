@@ -1,12 +1,23 @@
 import React from "react";
-import Header from "./../components/header";
+import { graphql } from "gatsby";
+import Heading from "./../components/heading";
+import DefaultLayout from "./../layout/default";
 
-export default function About() {
+export default function About({ data }) {
   return (
-    <div style={{ color: `teal` }}>
-      <Header content="This is content!" />
-      <Header content={"This is more content!"} />
+    <DefaultLayout>
+      <Heading content={data.site.siteMetadata.title} />
       <p>I'm a dev! Here is more!</p>
-    </div>
-  )
+    </DefaultLayout>
+  );
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
