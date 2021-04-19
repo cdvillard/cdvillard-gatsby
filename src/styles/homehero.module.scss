@@ -1,0 +1,39 @@
+.home-hero {
+  font-family: "Vault Alarm", Impact, sans-serif;
+
+  .headshot-container {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    height: calc(100% * 0.33);
+    width: calc(100% * 0.33);
+    border-right: 3px #333 solid;
+  }
+
+  .row {
+    &-name {
+      font-size: 5rem;
+      line-height: 1;
+      padding-bottom: 1rem;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+    }
+
+    &-headshot {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      border-top: 3px #333 solid;
+
+      .textblock {
+        font-size: 3rem;
+        max-width: calc(100% * 0.66);
+        padding-top: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+        letter-spacing: normal;
+        line-height: 1;
+      }
+    }
+  }
+}

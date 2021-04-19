@@ -18,6 +18,9 @@ export default function Navigation() {
 
   return (
     <nav>
+      <span>
+        <div className={styles.tagline}>GREAT DEVELOPMENT, MUCH CODE</div>
+      </span>
       <ul className={styles.navigation}>
         <NavigationLink target="/">
           <span className="brand">{data.site.siteMetadata.title}</span>
